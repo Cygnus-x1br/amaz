@@ -1,0 +1,191 @@
+body {
+  font-family: "LatoRegular";
+}
+
+#header {
+  padding: 1em 0;
+  background: url(../images/logo.png),
+    url(../images/janauari-ecological-park.jpg);
+  background-position: left center, left top;
+  background-size: 200px, cover;
+  background-repeat: no-repeat;
+  background-color: green;
+}
+
+#header .title {
+  text-align: center;
+  color: #ddebc6;
+  padding-top: 10px;
+  font-size: 1.3rem;
+}
+
+#header .title h1,
+#header .title h2 {
+  width: 100%;
+  font-size: 1.5em;
+  text-shadow: 4px 4px 8px #000;
+  text-transform: uppercase;
+}
+
+#main-area {
+  overflow: auto;
+  height: 100%;
+}
+
+.main-back {
+  overflow: auto;
+  background-color: #a6dda6;
+}
+
+#main-area .main-menu {
+  float: left;
+  background-color: #a6dda6;
+  height: auto;
+}
+
+#main-area .main-menu a {
+  display: block;
+  padding: 15px 50px;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 1px solid #042004;
+  color: #042004;
+}
+#main-area .main-menu a:hover {
+  display: block;
+  padding: 15px 50px;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 1px solid #042004;
+  color: #a6dda6;
+  background-color: #042004;
+}
+
+#main-area .main-text {
+  float: right;
+  padding: 5px 15px;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  background-color: #dfeedf;
+}
+
+#main-area .main-text h2 {
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 10px;
+  border-bottom: 1px solid green;
+}
+
+#main-area img {
+  border: 1px solid #042004;
+  box-shadow: 3px 3px 10px #000;
+  border-radius: 25px;
+}
+
+.clima img {
+  width: 80%;
+  margin-left: 10%;
+}
+.vegetacao img {
+  width: 40%;
+  margin-left: 30%;
+}
+
+.names {
+  color: #042004;
+  font-weight: bold;
+}
+
+.conclusion {
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 1.3em;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1.4em;
+  margin: 25px;
+}
+
+.conclusion p {
+  margin: 50px 0;
+}
+
+.gallery img {
+  width: 300px;
+  height: 200px;
+}
+
+.folclore {
+  position: relative;
+  display: inline-block;
+}
+
+.folclore p {
+  position: relative;
+  display: inline-block;
+  overflow: auto;
+}
+
+.img-left {
+  float: left;
+  position: relative;
+  overflow: auto;
+  margin-right: 15px;
+}
+.img-right {
+  float: right;
+}
+
+iframe {
+  margin: 45px auto;
+}
+
+#main-area .card {
+  width: 180px;
+  margin: 0 10px 15px 10px;
+  float: left;
+}
+
+#main-area .gallery .card a img {
+  border: none;
+  box-shadow: none;
+
+  width: 180px;
+  height: 180px;
+}
+
+.gallery .card p {
+  display: block;
+
+  margin: 0;
+  padding: 0;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+#main-footer {
+  overflow: auto;
+
+  background-color: #afc4af;
+  color: #5a795a;
+  text-align: center;
+}
+
+#main-footer h4 {
+  font-size: 0.7em;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin: 10px 0 0 0;
+}
+
+#main-footer .footer-menu {
+  padding: 0 15px;
+  border-bottom: 1px solid #042004;
+
+  margin: 0 auto;
+}
+
+#main-footer .footer-menu a {
+  display: inline-block;
+  padding: 15px 25px;
+}

@@ -1,0 +1,64 @@
+
+.row:before,
+.row:after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+
+.container {
+  margin: 0 auto;
+  position: relative;
+}
+
+.one,
+.one-third,
+.two-third,
+.one-fourth,
+.half {
+  width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .one {
+    width: 100%;
+  }
+  .half {
+    width: calc(100% / 2);
+  }
+  .one-third {
+    width: calc(100% / 3);
+  }
+  .two-third {
+    width: calc(100% / 4 * 3);
+  }
+  .one-fourth {
+    width: calc(100% / 4);
+  }
+  .column {
+    float: none;
+  }
+
+}
+
+@media only screen and (min-width: 481px) {
+  .one {
+    width: 100%;
+  }
+  .half {
+    width: calc(100% / 2);
+  }
+  .one-third {
+    width: calc(100% / 3);
+  }
+  .two-third {
+    width: calc(100% / 4 * 3);
+  }
+  .one-fourth {
+    width: calc(100% / 4);
+  }
+  .column {
+    float: left;
+  }
+}

@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    border-style: none;
+}
+
+button,
+[type="button"],
+[type="submit"],
+[type="reset"] {
+    -webkit-appearance: button; /*Veja lembrete do VSCode. Propriedade fora de padrão/desatualizada.*/
+}
+
+textarea {
+    overflow: auto;
+}
+
+[hidden] {
+    display: none;
+}
